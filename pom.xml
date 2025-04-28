@@ -67,6 +67,24 @@
 	</dependencies>
 
 	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>io.github.deweyjose</groupId>
+					<artifactId>graphqlcodegen-maven-plugin</artifactId>
+					<version>1.61.5</version>
+					<executions>
+						<execution>
+							<id>dgs-codegen</id>
+							<goals>
+								<goal>generate</goal>
+							</goals>
+							<phase>generate-sources</phase>
+						</execution>
+					</executions>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
