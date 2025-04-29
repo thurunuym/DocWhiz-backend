@@ -29,3 +29,7 @@ public class Patient {
     private String contactNumber;
     private String address;
 }
+
+
+//@Data	Automatically generates getters, setters, toString(), equals(), and hashCode().
+
