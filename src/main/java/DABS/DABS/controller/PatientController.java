@@ -36,6 +36,7 @@ public class PatientController {
 //Tells Spring BootThis class will handle HTTP requests and send JSON responses.
 //It's a combination of @Controller + @ResponseBody.
 //Automatically converts your method return values into JSON.
+//@RequestBody in your controller will automatically convert this JSON into a Java object
 
 //@RequiredArgsConstructor
 
