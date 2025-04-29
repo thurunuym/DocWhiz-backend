@@ -7,4 +7,4 @@ public interface AppointmentService {
     Appointment createAppointment(Appointment appointment);
     List<Appointment> getAppointmentsForPatient(String patientId);
     List<Appointment> getAppointmentsForDoctor(String doctorId);
-}
+    List<Appointment> filterAppointments(String date, String status);}
